@@ -1,0 +1,25 @@
+.menu_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 2px solid #f0f5fa; 
+  padding: 10px;
+}
+
+.menu_item {
+  margin-right: 15px;
+}
+
+.link {
+  padding: 10px;
+  text-decoration: none;
+  color: #8e9ab0;
+}
+
+.link_active {
+  border-bottom: 3px solid #DE4169;
+  font-weight: bold;
+}
