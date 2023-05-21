@@ -1,9 +1,9 @@
 import { FC, useState } from 'react';
 import style from './slider-style.module.css';
-import { TSliderComponent } from '../../utils/types';
+import { TPage } from '../../utils/types';
 import { Modal } from '../modal/modal';
 
-export const Slider: FC<TSliderComponent> = ({
+export const Slider: FC<TPage> = ({
   sliderPhoto,
   setSliderPhoto,
 }) => {
@@ -72,7 +72,7 @@ export const Slider: FC<TSliderComponent> = ({
         onDragLeave={handleDragLeave}
         className={`${style.container}  ${isDraggingOver ? style.dragging : ''}`}
       >
-        Выберите фотографию или перетащите в эту область свою фотографию с компьютера
+        Выберите фотографию или перетащите в эту область фотографию с компьютера, или нижние фото.
       </div>
     );
   }

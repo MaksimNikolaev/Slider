@@ -2,9 +2,9 @@ import { FC, useState } from 'react';
 import { Menu } from '../menu/menu';
 import style from './photoContainer-style.module.css';
 import { Photo } from '../photo/photo';
-import { TPhotoContainer } from '../../utils/types';
+import { TPhotoComponent } from '../../utils/types';
 
-export const PhotoContainer: FC<TPhotoContainer> = ({
+export const PhotoContainer: FC<TPhotoComponent> = ({
   photos,
   setSliderPhoto,
 }) => {
